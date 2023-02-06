@@ -10,6 +10,20 @@
     ;
 } */
 
+@media screen and (max-width: 480px){
+    .logo-brand{
+        display: none;
+    }
+    .rev{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .logRegFullButton{
+        width: 100%;
+        margin: 0px auto 10px auto;
+    }
+    
+}
 .logo-brand {
     height: 100px;
     width: auto;
